@@ -1,0 +1,33 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Project Rule: Starter Kit for creating rooms using firebase
+
+This project is set up with strict constraints. Cursor must follow these rules at all times.
+
+## ✅ Allowed
+- Use only TypeScript.
+- Use only libraries defined in `package.json`.
+- Follow existing patterns in the `src/` directory.
+- Only modify code inside clearly marked `// TODO:` or comment sections.
+- Write clear comments for any non-obvious logic.
+- Use modular, testable code.
+- Always use the latest package versions.
+- Structure code in proper folders as above.
+- Update documentation and Terraform code with every change.
+
+## 🚫 Not Allowed
+- No new libraries or tools without explicit permission.
+- No restructuring of folders or architecture.
+- No use of `any`, global variables, or implicit `any`.
+- No code generation outside of allowed areas.
+- No console logs (use proper logging utilities if needed).
+
+## 📐 Style Guide
+- 2-space indentation
+- Prettier formatting
+- ESLint rules enforced
+- Function and variable names must be descriptive
+- Types must be explicit (no implicit returns)
